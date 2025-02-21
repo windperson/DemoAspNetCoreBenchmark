@@ -1,0 +1,6 @@
+@SutMvcWebApi_HostAddress = http://localhost:5221
+
+GET {{SutMvcWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
