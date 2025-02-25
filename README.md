@@ -15,3 +15,18 @@ dotnet run -c Release -- --filter '*'
 The result will be like this:
 
 ![Benchmark Result](./screen_shots/Benchmark_MvcWebApiVsMinimalApi.png)
+
+
+## Server Async Stream Benchmark
+
+The console project in the **ServerAsyncStreamBenchmark** folder contains a Benchmark that compare using Async Stream or not to return a random integer list of json format in ASP.NET Core Minimal API Project (***AsyncStream\DemoRandomStreamApi*** folder).
+
+To run the Benchmark, under the **ServerAsyncStreamBenchmark** folder, execute the following command in terminal:
+
+```
+dotnet run -c Release -- --filter '*'
+```
+
+The result will be like this:
+
+![Benchmark Result](./screen_shots/Benchmark_ServerAsyncStream.png)

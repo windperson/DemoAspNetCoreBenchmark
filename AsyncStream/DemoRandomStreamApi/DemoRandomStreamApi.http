@@ -1,0 +1,11 @@
+@DemoRandomStreamApi_HostAddress = http://localhost:5127
+
+GET {{DemoRandomStreamApi_HostAddress}}/random?count=10
+Content-Type: application/json
+
+###
+
+GET {{DemoRandomStreamApi_HostAddress}}/async_random?count=10
+Content-Type: application/json
+
+###
